@@ -104,7 +104,7 @@ class ViewController: UIViewController {
         }
         // Declare Winner forced to Reset
         if rightScore == winner {
-            rightScoreLabel.textColor = UIColor.cyan
+            rightScoreLabel.textColor = UIColor.blue
         }
         else if leftScore == winner {
             leftScoreLabel.textColor = UIColor.cyan
